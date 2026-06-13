@@ -1,6 +1,6 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "cc.musette/de-soigneur",
+  "name": "io.github.musette-cc/musette-mcp",
   "description": "AI soigneur for cyclists: an Ien-Vitse-validated nutrition plan from your ride and a ready-to-order musette, inside Claude.",
   "version": "1.0.0",
   "repository": {

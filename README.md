@@ -18,7 +18,7 @@
 
 [![MCP](https://img.shields.io/badge/Model_Context_Protocol-compatible-FF4900)](https://modelcontextprotocol.io)
 [![Built for Claude](https://img.shields.io/badge/Built_for-Claude-1C1C1C)](https://claude.ai)
-[![Registry](https://img.shields.io/badge/MCP_Registry-cc.musette%2Fde--soigneur-1C1C1C)](https://registry.modelcontextprotocol.io)
+[![Registry](https://img.shields.io/badge/MCP_Registry-io.github.musette--cc%2Fmusette--mcp-1C1C1C)](https://registry.modelcontextprotocol.io)
 [![License: MIT](https://img.shields.io/badge/License-MIT-D9D9D9.svg)](./LICENSE)
 
 [**Connect to Claude →**](#-add-to-claude-30-seconds) · [What it does](#-what-it-does) · [Works with the Strava MCP](#-the-killer-combo-strava--musette) · [Validated by Ien Vitse](#-validated-by-a-worldtour-soigneur) · [Nederlands](#-nederlands)
@@ -148,7 +148,7 @@ Stappenplan en demo: **[musette.cc/mcp](https://www.musette.cc/mcp)**
 
 This repo is the source of truth for every MCP directory listing.
 
-- **Anthropic MCP Registry** — published from [`server.json`](./server.json) via the `mcp-publisher` CLI. The namespace `cc.musette/de-soigneur` is DNS-verified against `musette.cc` (alternatively `io.github.<org>/musette-mcp` via GitHub auth).
+- **Anthropic MCP Registry** — published from [`server.json`](./server.json) via the `mcp-publisher` CLI under the namespace `io.github.musette-cc/musette-mcp` (GitHub-auth, verified via the musette-cc org).
 - Also listed on: mcp.so · Smithery · PulseMCP · Glama · [`awesome-mcp-servers`](https://github.com/punkpeye/awesome-mcp-servers).
 
 ---
