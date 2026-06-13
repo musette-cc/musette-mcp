@@ -1,10 +1,20 @@
 <div align="center">
 
-<img src="./assets/musette-wordmark.svg" alt="Musette" width="220" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/icon-white.svg" />
+  <img src="./assets/icon-black.svg" alt="" width="72" />
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/wordmark-white.svg" />
+  <img src="./assets/wordmark-black.svg" alt="Musette" width="240" />
+</picture>
 
 # Musette MCP — the AI soigneur for Claude
 
 **The first cycling nutrition you order from inside Claude — built on your real Strava data, validated by WorldTour soigneur Ien Vitse.**
+
+**Real premium brands — [Amacx](https://www.musette.cc) and [Maurten](https://www.musette.cc) — delivered straight to your door. No white-label, no own-brand lock-in.**
 
 [![MCP](https://img.shields.io/badge/Model_Context_Protocol-compatible-FF4900)](https://modelcontextprotocol.io)
 [![Built for Claude](https://img.shields.io/badge/Built_for-Claude-1C1C1C)](https://claude.ai)
@@ -46,7 +56,7 @@ Claude can already estimate carbs-per-hour. The gap Musette closes is the one be
 | Tool | What it does |
 |------|--------------|
 | `bereken_voedingsplan` | The Ien-Vitse-validated plan for one ride: carbs/hour, total, hydration, a timed feeding schedule, drink/gel/bar split and safety advice. |
-| `stel_musette_samen` | Turns the plan into a ready-to-go musette: concrete products + quantities (Amacx / Maurten) and a direct order link with the cart pre-filled. |
+| `stel_musette_samen` | Turns the plan into a ready-to-go musette: concrete products + quantities from **real premium brands (Amacx & Maurten), which Musette ships directly** — plus a direct order link with the cart pre-filled. |
 | `zoek_evenement` | Looks up a cycling event or sportive by name and returns date, location and distances (km + elevation) to feed into the plan. |
 | `musette_info` · `ping` | What Musette is, and a connectivity check. |
 
@@ -126,7 +136,7 @@ Claude (connector) ──Streamable HTTP──► mcp-server (Supabase Edge, mcp
 
 **De eerste sportvoeding die je vanuit Claude bestelt — op je échte Strava-data, gevalideerd door WorldTour-soigneur Ien Vitse.**
 
-Musette is een MCP-connector voor Claude. Koppel 'm (Settings → Connectors → "Add custom connector", plak de URL hierboven) en vraag in gewone taal wat je moet eten op je volgende rit of toertocht. Claude rekent het Ien-gevalideerde plan uit, stelt je musette samen met concrete producten (Amacx/Maurten) en geeft je een bestel-link met de winkelwagen al gevuld. **Geen account, geen inlog, gratis** — je betaalt alleen als je daadwerkelijk bestelt.
+Musette is een MCP-connector voor Claude. Koppel 'm (Settings → Connectors → "Add custom connector", plak de URL hierboven) en vraag in gewone taal wat je moet eten op je volgende rit of toertocht. Claude rekent het Ien-gevalideerde plan uit, stelt je musette samen met concrete producten en geeft je een bestel-link met de winkelwagen al gevuld. **Echte premiummerken — Amacx en Maurten — die wij direct leveren** (geen white-label, geen eigen-merk). **Geen account, geen inlog, gratis** — je betaalt alleen als je daadwerkelijk bestelt.
 
 Sterker mét de Strava-connector: dan leest Claude je werkelijke ritten en wordt je plan persoonlijk in plaats van algemeen. **Strava levert je data, Musette levert je voeding — allebei in Claude.**
 
